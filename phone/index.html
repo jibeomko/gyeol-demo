@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#254F46" />
+    <meta name="description" content="결 GYEOL 가상 데이터 체험 · 컴퓨터에서 보는 휴대폰 화면 미리보기" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>결 GYEOL · 휴대폰 화면 미리보기</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2721%27 fill=%27%23254F46%27/%3E%3Cg fill=%27none%27 stroke=%27%23E7F0DE%27 stroke-linecap=%27round%27 stroke-width=%273%27%3E%3Cpath d=%27M15 23c10-11 24 11 34 0%27/%3E%3Cpath d=%27M15 32c10-11 24 11 34 0%27/%3E%3Cpath d=%27M15 41c10-11 24 11 34 0%27/%3E%3C/g%3E%3C/svg%3E" type="image/svg+xml" />
+    <link rel="stylesheet" href="phone.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#frame">체험 앱으로 이동</a>
+    <header class="bar">
+      <a class="back" href="../"><span aria-hidden="true">←</span> 설치 안내</a>
+      <div class="bar-title"><strong>휴대폰 화면 미리보기</strong><span class="demo-pill">체험 모드 · 가상 데이터</span></div>
+      <div class="bar-actions">
+        <button type="button" id="reload" class="button secondary">다시 불러오기</button>
+        <a class="button primary" href="../app/" target="_blank" rel="noopener">큰 화면으로 열기 <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+    <main class="stage">
+      <aside class="side">
+        <p class="eyebrow">ON YOUR COMPUTER</p>
+        <h1>휴대폰에서 보이는 그대로</h1>
+        <p>같은 체험 앱을 휴대폰 크기(390 × 844)로 보여 줍니다. 마우스로 누르고 스크롤하며 살펴보세요.</p>
+        <ol>
+          <li>환영 화면에서 <strong>체험 시작하기</strong> 또는 <strong>대시보드 먼저 보기</strong>를 누릅니다.</li>
+          <li>홈 · 기록 · 수집 상태 · 설정 탭을 오가며 가상 기록을 살펴봅니다.</li>
+          <li>홈 화면 설치와 설치 안내 바는 휴대폰에서 링크를 열었을 때만 나타납니다.</li>
+        </ol>
+        
+        <div class="qr">
+          <img src="../assets/qr-app.svg" alt="휴대폰으로 체험 앱을 여는 QR 코드" width="124" height="124" />
+          <p>휴대폰 카메라로 스캔하고 링크를 누르면 열립니다.<br /><a href="https://jibeomko.github.io/gyeol-demo/app/">https://jibeomko.github.io/gyeol-demo/app/</a></p>
+        </div>
+        
+        <p class="note">컴퓨터용 표시 방식이므로 실제 휴대폰의 설치 동작, 글꼴, 성능과 다를 수 있습니다. 화면이 작으면 <a href="../app/">체험 앱을 직접 여세요</a>.</p>
+      </aside>
+      <div class="device-wrap" id="device-wrap">
+        <div class="device" id="device">
+          <iframe id="frame" title="결 GYEOL 체험 앱 (휴대폰 화면 미리보기)" src="../app/"></iframe>
+        </div>
+      </div>
+    </main>
+    <script src="phone.js"></script>
+  </body>
+</html>
