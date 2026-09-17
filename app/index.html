@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <base href="/gyeol-demo/app/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="결 GYEOL — 일상의 흐름을 담다. 가상 데이터로 경험하는 연구 참여자 앱.">
+  <meta name="theme-color" content="#254F46">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="결 GYEOL">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="pwa.css">
+  <title>결 GYEOL · 일상의 흐름을 담다</title>
+  <style>
+    html,body{height:100%;margin:0;background:#F5F6F2}
+    #loading{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-family:system-ui,sans-serif;color:#254F46;gap:18px}
+    #loading img{width:64px;height:64px;border-radius:20px}
+    #loading p{font-size:13px;letter-spacing:1px;margin:0}
+    #loading small{font-size:12px;color:#4A5D54;letter-spacing:.5px}
+    .dots{width:34px;height:3px;background:#CEDACB;overflow:hidden;border-radius:3px}
+    .dots:after{content:'';display:block;width:16px;height:3px;background:#254F46;animation:move 1.3s ease-in-out infinite alternate}
+    @keyframes move{to{transform:translateX(18px)}}
+    @media(prefers-reduced-motion:reduce){.dots:after{animation:none}}
+  </style>
+</head>
+<body>
+  <div id="pwa-install-region" aria-live="polite"></div>
+  <div id="flutter-host"></div>
+  <div id="loading" role="status"><img src="icons/Icon-192.png" alt="결"><p>일상의 흐름을 담다</p><div class="dots"></div><small>체험 모드 · 가상 데이터</small></div>
+  <script src="pwa.js" defer></script>
+  <script src="flutter_bootstrap.js" defer></script>
+</body>
+</html>
