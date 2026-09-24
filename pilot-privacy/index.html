@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#163F36" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content="결 파일럿(org.gyeol.pilot) 개인정보 처리방침 · pilot-privacy-v1" />
+    <title>결 파일럿 개인정보 처리방침</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2721%27 fill=%27%23163F36%27/%3E%3Cg fill=%27none%27 stroke=%27%23E7F0DE%27 stroke-linecap=%27round%27 stroke-width=%273%27%3E%3Cpath d=%27M15 23c10-11 24 11 34 0%27/%3E%3Cpath d=%27M15 32c10-11 24 11 34 0%27/%3E%3Cpath d=%27M15 41c10-11 24 11 34 0%27/%3E%3C/g%3E%3C/svg%3E" type="image/svg+xml" />
+    <style>
+      /* colours from design/tokens.json */
+      :root{--forest:#163F36;--ink:#1C3430;--text-secondary:#55655C;--text-label:#44574E;--line:#DCE5DA;--sage:#E8EEE5;--sage-deep:#DCE7D6;--peach:#F1E7D7;--cream:#F6F5F0;--white:#FFFFFF;--on-shell:#F8FAF5;--on-shell-muted:#A9C0B4;--radius-card:20px;--radius-control:14px}
+      *{box-sizing:border-box}
+      body{margin:0;background:var(--cream);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;font-size:16px;line-height:1.75;word-break:keep-all;overflow-wrap:anywhere;-webkit-text-size-adjust:100%}
+      header{background:linear-gradient(160deg,#265046 0%,#1A3B34 55%,#12302A 100%);color:var(--on-shell);padding:36px 20px 30px}
+      .wrap{max-width:680px;margin:0 auto}
+      .brand{display:flex;align-items:center;gap:10px;margin-bottom:18px}
+      .mark{width:34px;height:34px;background:var(--on-shell);border-radius:32%;display:grid;align-content:center;gap:4px;padding:0 22%;flex:none}
+      .mark i{height:2px;border-radius:5px;background:var(--forest);transform:skewY(-14deg)}
+      .brand b{font-size:15px;letter-spacing:-.2px}
+      .brand small{display:block;font-size:11px;letter-spacing:1.6px;color:var(--on-shell-muted);font-weight:700}
+      h1{font-size:clamp(24px,6vw,32px);line-height:1.25;letter-spacing:-1px;margin:0 0 14px}
+      .meta{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+      .meta li{font-size:13px;color:var(--on-shell-muted);background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:100px;padding:4px 12px}
+      .meta li code{color:var(--on-shell);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}
+      main{padding:22px 20px 60px}
+      .notice{background:var(--white);border:2px solid var(--forest);border-radius:var(--radius-card);padding:18px 20px;margin:0 0 30px;box-shadow:0 2px 4px rgba(31,54,48,.05),0 14px 30px rgba(31,54,48,.08)}
+      .notice .kicker{display:block;font-size:11px;letter-spacing:1.4px;font-weight:700;color:var(--text-label);margin-bottom:6px}
+      .notice p{margin:0;font-weight:600}
+      .notice p+p{margin-top:8px;font-weight:400;color:var(--text-secondary);font-size:15px}
+      section{margin:0 0 34px}
+      h2{font-size:20px;letter-spacing:-.5px;margin:0 0 10px;padding-top:8px;color:var(--forest)}
+      h2 span{display:inline-block;min-width:1.6em;color:var(--text-label);font-size:13px;letter-spacing:1px;font-weight:700;vertical-align:2px}
+      p{margin:0 0 12px}
+      ul{margin:0 0 12px;padding-left:1.2em}
+      li{margin:4px 0}
+      dl{margin:14px 0;display:grid;gap:10px}
+      dl div{background:var(--white);border:1px solid var(--line);border-radius:var(--radius-control);padding:12px 16px}
+      dt{font-weight:700;margin-bottom:2px}
+      dd{margin:0;color:var(--text-secondary);font-size:15px}
+      dd code,p code,li code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.88em;background:var(--sage);border-radius:6px;padding:1px 6px;color:var(--ink)}
+      .quiet{background:var(--sage);border-radius:var(--radius-control);padding:12px 16px;font-size:15px;color:var(--ink);margin:12px 0}
+      .quiet strong{color:var(--forest)}
+      .path{white-space:nowrap}
+      .placeholder{display:block;border:2px dashed #C9A97E;background:var(--peach);border-radius:var(--radius-control);padding:16px 18px;text-align:center;font-weight:700;font-size:17px;color:var(--ink);margin:12px 0 6px}
+      .placeholder-note{display:block;font-size:13px;color:var(--text-label);text-align:center;margin-bottom:12px}
+      footer{border-top:1px solid var(--line);padding:18px 20px 40px;color:var(--text-secondary);font-size:14px}
+      footer p{margin:0}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <div class="brand" aria-label="결 파일럿">
+          <span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>
+          <b>결 파일럿<small>org.gyeol.pilot</small></b>
+        </div>
+        <h1>결 파일럿 개인정보 처리방침</h1>
+        <ul class="meta">
+          <li>시행일 <code>2026-09-24</code></li>
+          <li>버전 <code>pilot-privacy-v1</code></li>
+          <li>대상 앱 <code>org.gyeol.pilot</code></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <aside class="notice" role="note">
+        <span class="kicker">읽기 전에</span>
+        <p>이 문서는 별도의 앱 <strong>결 파일럿</strong>(패키지 <code>org.gyeol.pilot</code>)에 관한 것입니다.</p>
+        <p>이 사이트에서 배포하는 공개 체험판 <strong>결 GYEOL</strong>은 이 방침의 대상이 아닙니다. 체험판은 가상 데이터로만 동작하며 어떤 권한도 요청하지 않고 아무것도 기록하지 않습니다.</p>
+      </aside>
+
+      <section id="what">
+        <h2><span>01</span>무엇을 기록하나</h2>
+        <p>결 파일럿은 아래 다섯 가지 <strong>하루 단위 요약</strong>만 기록합니다. 값은 날짜별로 한 줄씩 남으며, 원본 이벤트는 저장하지 않습니다.</p>
+        <dl>
+          <div>
+            <dt>화면 사용 시간</dt>
+            <dd>출처: Android 사용 정보(UsageStatsManager)의 화면 켜짐·꺼짐 이벤트 → 하루 동안 화면이 켜져 있던 분 수</dd>
+          </div>
+          <div>
+            <dt>야간 화면 사용 시간</dt>
+            <dd>출처: 같은 화면 켜짐·꺼짐 이벤트 → 22:00~05:59 구간에 화면이 켜져 있던 분 수(그날 새벽 00:00~05:59와 그날 밤 22:00~23:59)</dd>
+          </div>
+          <div>
+            <dt>걸음 수</dt>
+            <dd>출처: 헬스 커넥트(Health Connect) 걸음 수(<code>STEPS</code>) → 하루 합계</dd>
+          </div>
+          <div>
+            <dt>이동 거리</dt>
+            <dd>출처: 헬스 커넥트 이동 거리(<code>DISTANCE_DELTA</code>) → 하루 합계</dd>
+          </div>
+          <div>
+            <dt>수면</dt>
+            <dd>출처: 헬스 커넥트 수면 세션(<code>SLEEP_SESSION</code>) → 그날 끝난 수면의 분 수. 시계·밴드 같은 다른 앱이 헬스 커넥트에 수면을 기록해 둔 경우에만 값이 있고, 없으면 빈칸입니다.</dd>
+          </div>
+        </dl>
+        <p>요약과 함께 앱 안에 남는 것은 각 항목의 출처 표시, 수집 시각과 성공 여부 로그(최근 50건), 동의 버전(<code>pilot-consent-v1</code>)과 동의 시각뿐입니다.</p>
+        <div class="quiet">
+          <strong>기록하지 않는 것.</strong> 어떤 앱을 얼마나 썼는지(앱 이름, 앱별 사용 시간), 위치, 메시지·통화 내용, 연락처, 계정 정보, 화면 켜짐·꺼짐이나 걸음의 원본 이벤트는 읽지도 저장하지도 않습니다.
+        </div>
+      </section>
+
+      <section id="where">
+        <h2><span>02</span>어디에 저장되나</h2>
+        <p>기록은 휴대폰 안, 앱 전용 저장 공간에만 있습니다. 다른 앱은 이 공간을 읽을 수 없습니다.</p>
+        <p>앱을 삭제하면 기록도 함께 삭제됩니다. 앱을 그대로 두고 지우려면 <span class="path">설정 → 기록 삭제</span>를 누르면 돼요. 요약·로그·동의 기록이 그 자리에서 지워집니다.</p>
+      </section>
+
+      <section id="transfer">
+        <h2><span>03</span>전송</h2>
+        <p><strong>기본 상태에서는 아무것도 휴대폰 밖으로 나가지 않습니다.</strong> 앱은 인터넷에 접속하지 않습니다.</p>
+        <p>휴대폰의 주인이 <span class="path">설정 → 기록 전송</span>에 서버 주소와 토큰을 직접 입력한 경우에만, 앱은 하루 단위 요약을 <strong>그 서버로만</strong> 보냅니다. 파일럿 운영자는 이 설정을 자신의 휴대폰에서만 합니다. 참여자의 휴대폰에는 서버 주소가 입력되지 않으며, 운영자는 참여자의 기록을 받지 않습니다.</p>
+        <p>제3자에게 제공하지 않습니다. 광고가 없고, 분석·추적 SDK가 들어 있지 않습니다.</p>
+      </section>
+
+      <section id="health-connect">
+        <h2><span>04</span>헬스 커넥트(Health Connect)</h2>
+        <p>앱이 헬스 커넥트에서 읽는 데이터 종류는 세 가지입니다. 헬스 커넥트에 쓰지는 않습니다.</p>
+        <ul>
+          <li>걸음 수 <code>STEPS</code></li>
+          <li>이동 거리 <code>DISTANCE_DELTA</code></li>
+          <li>수면 세션 <code>SLEEP_SESSION</code></li>
+        </ul>
+        <p>앱은 6시간마다 잠깐 깨어나 요약을 남깁니다. 이때 화면이 꺼져 있어도 읽을 수 있도록 헬스 커넥트의 <strong>백그라운드 읽기</strong> 권한을 사용합니다.</p>
+        <p>권한은 언제든 거둘 수 있어요. 휴대폰 설정에서 '건강 커넥트'를 검색해 <span class="path">앱 권한 → 결 파일럿</span>에서 끄면 됩니다. 권한이 꺼지면 앱은 값을 추정하지 않고 해당 항목을 <strong>기록 없음</strong>으로 표시합니다.</p>
+      </section>
+
+      <section id="usage-access">
+        <h2><span>05</span>사용 정보 접근(PACKAGE_USAGE_STATS)</h2>
+        <p>이 권한은 화면이 켜지고 꺼진 시각으로 <strong>하루 화면 사용 분 수와 야간 화면 사용 분 수를 세는 데만</strong> 씁니다. 같은 권한으로 볼 수 있는 앱 이름이나 앱별 사용 시간은 기록하지 않습니다.</p>
+        <p>거두려면 휴대폰 설정에서 '사용 정보 접근'을 검색해 결 파일럿을 끄면 돼요.</p>
+        <ul>
+          <li>갤럭시: <span class="path">설정 → 애플리케이션 → ⋮ → 특별한 접근 권한 → 사용 정보 접근</span></li>
+          <li>Pixel: <span class="path">설정 → 앱 → 특별한 앱 액세스 → 사용 정보 접근</span></li>
+        </ul>
+        <p>권한이 꺼지면 화면 사용 시간 항목은 <strong>기록 없음</strong>으로 표시됩니다.</p>
+      </section>
+
+      <section id="retention">
+        <h2><span>06</span>보관·삭제</h2>
+        <p>파일럿은 4주 동안 진행되고 끝납니다.</p>
+        <ul>
+          <li><strong>참여자의 기록</strong>은 운영자가 수집한 적이 없습니다. 각자의 휴대폰에만 있으며, 앱 삭제 또는 <span class="path">설정 → 기록 삭제</span>로 사라집니다.</li>
+          <li><strong>운영자 자신의 휴대폰에서 올린 기록</strong>은 파일럿 종료 후 4주 이내에 서버에서 삭제합니다.</li>
+        </ul>
+      </section>
+
+      <section id="stop">
+        <h2><span>07</span>참여 중지</h2>
+        <p><span class="path">설정 → 일시중지하기</span> 또는 <span class="path">설정 → 참여 중단하기</span>를 누르면 모든 기록이 멈춥니다. 이유는 묻지 않아요. 앱을 삭제해도 됩니다.</p>
+      </section>
+
+      <section id="contact">
+        <h2><span>08</span>문의</h2>
+        <p>이 방침이나 파일럿에 관한 질문은 아래 담당자에게 보내 주세요.</p>
+        <span class="placeholder">[담당자 이름 · 이메일]</span>
+        <span class="placeholder-note">↑ 게시 전에 운영자가 채워 넣는 자리입니다</span>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <p>이 방침은 앱 안 <span class="path">설정 → 정보 처리 안내</span>에서도 같은 내용으로 볼 수 있습니다.</p>
+      </div>
+    </footer>
+  </body>
+</html>
