@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <!-- Mirrors _BrandPainter in mobile/lib/core/widgets.dart: y = 12 + 7i, M9 y C16 y-8 23 y+8 30 y.
+       Tile: brand.forest. Waves: text.onShell. Both from design/tokens.json. -->
+  <rect width="40" height="40" rx="13" fill="#163f36"/>
+  <g fill="none" stroke="#f8faf5" stroke-width="1.5" stroke-linecap="round">
+    <path d="M9 12C16 4 23 20 30 12"/>
+    <path d="M9 19C16 11 23 27 30 19"/>
+    <path d="M9 26C16 18 23 34 30 26"/>
+  </g>
+</svg>
