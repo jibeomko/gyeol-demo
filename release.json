@@ -1,0 +1,24 @@
+{
+  "app": {
+    "version": "1f713c7f7832e88c",
+    "basePath": "/gyeol-demo/",
+    "publicUrl": "https://jibeomko.github.io/gyeol-demo/"
+  },
+  "availableAPK": {
+    "path": "downloads/gyeol-demo.apk",
+    "version": "0.3.0+4",
+    "size": "53 MB",
+    "abiLabel": "모든 Android 휴대폰용",
+    "abis": [
+      "arm64-v8a",
+      "armeabi-v7a",
+      "x86_64"
+    ],
+    "minimumAndroid": "7.0",
+    "sha256": "e1e17ab226de65e4c13114e94eed2141cb420fa27d94db3bae6c9cba1ba640bc",
+    "certificateSha256": "43ae9e614c060d49669dd84a925bfabd370475e22c7c404de98625e3e81f8376"
+  },
+  "site": {
+    "build": "3da20388ab6cbffc"
+  }
+}
