@@ -1,0 +1,21 @@
+/*>>>generated from design/tokens.json*/:root{--forest:#163f36}/*<<<generated*/
+/* The app fills the viewport. */
+html, body { overflow: hidden; overscroll-behavior: none; }
+#pwa-install-region { position: relative; z-index: 2147483000; }
+/* Flutter measures its host border box, so the host is exactly the visible viewport. */
+#flutter-host {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+}
+#flutter-host flutter-view { height: 100% !important; margin-top: 0; }
+#pwa-foreign-frame {
+  box-sizing: border-box; position: fixed; inset: auto 0 0 0; z-index: 2147483001;
+  margin: 0; padding: 12px 16px; background: var(--forest); color: #fff;
+  font: 13px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;
+}
+#pwa-foreign-frame a { color: #fff; font-weight: 750; }

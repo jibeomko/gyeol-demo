@@ -1,0 +1,21 @@
+/*>>>generated from design/tokens.json*/:root{--forest:#163f36;--ink:#1c3430;--text-secondary:#55655c;--text-label:#44574e;--line:#dce5da;--sage:#e8eee5;--cream:#f6f5f0}/*<<<generated*/
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;position:relative;overflow:hidden;word-break:keep-all}
+/* The same field as the rest of the site, so a projected screen still reads as the product. */
+body::before{content:'';position:fixed;inset:0;z-index:-1;background:radial-gradient(120% 90% at 100% -8%,rgba(207,224,198,.92) 0%,rgba(233,241,228,0) 62%),radial-gradient(110% 85% at -12% 114%,rgba(225,221,238,.8) 0%,rgba(242,240,249,0) 70%),linear-gradient(135deg,#fbfcf8 0%,#f4f6f1 47%,#ebf0e6 100%)}
+.back{position:fixed;top:20px;left:22px;color:var(--forest);font-size:13px;font-weight:700;text-decoration:none}
+.back:focus-visible{outline:3px solid #b5cdb4;outline-offset:3px}
+main{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;padding:28px;text-align:center}
+.brand{display:flex;align-items:center;gap:12px;margin-bottom:clamp(18px,3vh,34px)}
+.mark{width:clamp(38px,4vh,52px);height:auto}
+.name{font-size:clamp(28px,3.6vh,40px);font-weight:750;letter-spacing:-1.5px;color:var(--forest);line-height:1}
+.brand small{font-size:clamp(10px,1.3vh,13px);letter-spacing:2.4px;font-weight:700;color:var(--text-label)}
+.code{margin:0;background:#fff;padding:clamp(14px,2vh,26px);border-radius:24px;box-shadow:0 2px 4px rgba(31,54,48,.06),0 22px 48px rgba(31,54,48,.12)}
+.code img{display:block;width:clamp(220px,42vh,460px);height:auto}
+h1{font-size:clamp(26px,4.4vh,50px);letter-spacing:-1.8px;margin:clamp(22px,3.4vh,40px) 0 0;line-height:1.2}
+.how{font-size:clamp(14px,1.9vh,20px);color:var(--text-secondary);margin:clamp(10px,1.4vh,16px) 0 0;max-width:34ch;line-height:1.6}
+.url{margin:clamp(14px,2vh,24px) 0 0}
+.url a{font-size:clamp(12px,1.6vh,17px);color:var(--forest);font-weight:700;word-break:break-all;text-decoration:none}
+.note{position:fixed;left:0;right:0;bottom:clamp(16px,2.4vh,28px);font-size:clamp(11px,1.4vh,14px);color:var(--text-label);margin:0}
+@media (max-width:640px){body{overflow:auto}main{height:auto;min-height:100%;padding-block:56px}.note{position:static;margin-top:34px}}
